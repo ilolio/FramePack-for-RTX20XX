@@ -1,3 +1,25 @@
+This is a minimal fork of FramePack.  
+Changes were made to improve compatibility with RTX 20-series GPUs.
+
+- Tested on:
+  - GPU: RTX 2080 Ti
+  - Modified settings:
+    - TeaCache: off
+    - Total Video Length (Seconds): 1
+    - GPU Inference Preserved Memory: 8GB
+  - Test results:
+    - Inference time: ~40 minutes
+    - RAM usage: ~50 GB
+    - VRAM usage: ~10 GB (This fork requires more VRAM due to the dtype change.)
+    - Basic functionality works fine!
+
+Only basic functionality has been tested — use at your own risk.
+
+
+The following is the original README.
+
+---
+
 <p align="center">
     <img src="https://github.com/user-attachments/assets/2cc030b4-87e1-40a0-b5bf-1b7d6b62820b" width="300">
 </p>
